@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html> 
-    <head> 
+    <head>
         <meta charset="utf-8">
         <title>Practica HTML</title>
     </head>
 <body >
-   <style>h1 {color:red;}</style>
-   <style> h2 {color: blueviolet; font-weight: 100;</style>
-   <style> .destacado {color:green;}</style>
+   <style>h1 {color:rgba(255, 0, 191, 0.89); font-style: italic;font-family:monospace; font-weight: 600;font-size: 450%</style>
+   <style> h2 {color: rgb(226, 70, 43); font-weight: 100;</style>
+   <style> .destacado {color:blueviolet; background-color: black;}</style>
   <style> p {color:blue;}</style> 
+  <style> #destacado {color:aqua; }</style>
+  <style>h3 {color:chartreuse;}</style>
+  <style> h2.destacado</style>
+  
+
        <header>
         <h1>Título principal de la practica HTML</h1>
     </header>
@@ -16,7 +21,7 @@
         maquetar un sitio web completo. en este documento de practica veremos los distintos HTML que podemos encontrar
         </p>
         <h2>Primero HTML semántico.</h2>
-        <p>HTML Semántico es el uso de las etiquetas HTML para reforzar la semántica, o el significado, de la información en las
+        <p id="destacado">HTML Semántico es el uso de las etiquetas HTML para reforzar la semántica, o el significado, de la información en las
             páginas web más que simplemente redefinir su forma de presentación (apariencia). El HTML semántico es procesado por
             los navegadores web regulares así como por muchos otros agentes de usuarios. Las CSS son usadas para sugerir la
             presentación de la página a usuarios humanos.
@@ -34,12 +39,12 @@
                         Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como
                         HTML5, y una variante XHTML conocida como sintaxis XHTML 5 que deberá servirse con sintaxis XML.
                         </p>
-                        <h3>Primer subtema Nuevos elementos</h3>
+                        <h3>Primer subtema <em class="destacado">Nuevos</em> elementos</h3>
                         <p>HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso típico de los sitios web modernos. Algunos
                             de ellos son técnicamente similares a las etiquetas div y span, pero tienen un significado semántico, como por ejemplo nav
                             (bloque de navegación del sitio web) y footer.
                             </p>
-                            <h3>Segundo subtema Nuevas API y Javascript</h3>
+                            <h3>Segundo subtema Nuevas <em class="destacado"> API y Javascript<em></h3>
                             <p>API para hacer Drag & Drop. Mediante eventos. API para trabajar Off-Line. Permite descargar todos los contenidos
                                 necesarios y trabajar en local. API de Geolocalización para dispositivos que lo soporten. API Storage. Facilidad de
                                 almacenamiento persistente en local, con bases de datos (basadas en SQLite) o con almacenamiento de objetos por
@@ -49,7 +54,7 @@
                                 red, ficheros, CPU, memoria, puertos USB, cámaras, micrófonos... Muy interesante, pero con numerosas salvedades de
                                 seguridad.
                                 </p>
-                                <h2>Conclusiones</h2>
+                                <h2 class="destacado">Conclusiones</h2>
                                 
                                 <p>HTML es necesario para estructurar el contenido de las web que hoy conocemos y sin duda fue evolucionando con el tiempo.<br><br>Sin lugar a dudas hay que aprenderlo para ir mejorando la calidad de las paginas web que utilizamos.</p>
 <footer>
